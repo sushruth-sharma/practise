@@ -1,0 +1,121 @@
+1. Solution Design
+
+a. Software Design Practices
+b. Software Architecture + Design Principles
+
+Solution design architecture/SDD [Solution Design Document]
+
+https://levioconsulting.com/insights/understanding-solution-design-infographic/
+
+i. Stakeholders :
+
+- Customers Management team
+- Customer PM Team
+- Product/Project Owners
+- DXC Management/Leadership
+- IT Management
+- Business Analysis Team
+- QA Team
+- Design/Usability team
+
+ii. Define the business goals 
+
+- Complete 10 modules in the project 
+- Improve the performance of the application by 1.5X
+- Migration : Legacy stack [old] ==> New technology stack
+- 100 tickets/tasks --> Completed in 10 days + After 10-days --> another list of tasks would be available
+
+iii. Projects : Roadmap
+
+a. From scratch - Greenfield projects
+b. Maintenance/Support - Brownfield projects
+
+iv. Non-functional requirements [NFR] : What | How | When
+
+- How well is the code designed
+- How well is database/data model defined
+- How well is the maintenance/scalability defined
+- How well is the security aspects taken care [app secure/code secure/data secure/network secure]
+- How to ensure the performance is the application is better 
+
+IT IS NOT JUST ABOUT CREATING A PROJECT/PRODUCT, you also need to create a "GOOD APP".
+
+
+v. 3rd party integrations : Version compatibility 
+
+- Ecom project --> Integrate a Payment Gateway
+- Exchange data [publishing - subscribing the data from different API's : Pub-Sub Model : Event Driven Architecture [EDA]]
+- 3rd party plugin integration : Reporting features --> 3rd party libraries
+
+ vi. Impacts on the interconnected system(s) are identified and noted in functional and non-functional specifications 
+
+- Maintenance/Support project 
+
+vii. Process flows : Helps in decoupling complex workflows into logical implementations --> Class/Object/etc
+
+- Business process flow
+- Workflows
+- Different architecture diagrams : ERD [Entity Relationship Dig, Class Dig, ect]
+
+https://softwaredominos.com/home/software-design-development-articles/solution-design-part-1-introduction-and-first-principles/\
+
+https://softwaredominos.com/home/software-design-development-articles/high-level-solution-design-documents-what-is-it-and-when-do-you-need-one/#:~:text=A%20solution%20design%20should%20include,and%20any%20other%20relevant%20information.
+
+Project Requirement Document :
+
+a. User stories 
+b. Start creating the technical workflow : Solution Design --> High Level Design [HLD] + Low Level Design [LLD]
+
+Exercise : Choice of app in a random fashion : 
+
+A. Create HLD for an application like Zomato with 5 features
+B. Create HLD for an application like Amazon/Flipkart with 5 features
+
+Submit : 25/02
+
+Low Level Design :
+
+https://softwaredominos.com/home/software-design-development-articles/write-solution-design-document/
+
+
+On the basis of the HLD for the features for the project that you would work upon :
+
+==> Create and explain the quadrant of : Trivial/Novel + Small/large : for each factor : WHY
+
+https://softwaredominos.com/home/software-design-development-articles/write-solution-design-document/
+
+Submit : 25/02
+
+Reference links for LLD :
+
+
+https://medium.com/@svosh2/high-level-design-document-and-how-it-can-help-us-to-structure-your-design-artifacts-df9ab5a4f61c
+
+https://nest.cs.wmich.edu/report/AGORA-Low-Level-Design-Document-rev2.pdf
+
+Solution Design/HLD --> represent : paper + pen --> picture --> upload the picture in Github
+
+All documents/artificats ---> Into your GITHUB
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

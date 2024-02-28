@@ -1,0 +1,254 @@
+user stories:
+
+Summary: A user story is an informal, general explanation of a software feature written from the perspective of the end user. 
+Its purpose is to articulate how a software feature will provide value to the customer.
+
+
+
+A key component of agile software development is putting people first, and a user story puts end users at the center of the conversation. 
+
+ After reading a user story, the team knows why they are building, what they're building, and what value it creates. 
+
+
+
+User stories are one of the core components of an agile program.
+ They help provide a user-focused framework for daily work — which drives collaboration, creativity, and a better product overall.
+
+
+
+What is a user story?
+
+
+A user story is a short, simple description of a feature told from the perspective of the person who desires the new capability,
+ usually a user or customer of the system. User stories typically follow a simple template:
+
+As a < type of user >, I want < some goal > so that < some reason >.
+
+
+
+User stories are designed to strongly shift the focus from writing about features to discussing them.
+In fact, these discussions are more important than whatever text is written.
+
+
+
+What Is a Good User Story?
+
+
+Card: Written description of the story, used for planning and as a reminder
+Conversation: Conversations about the story that serve to flesh out the details of the story
+Confirmation: Tests that convey and document details that can be used to determine when a story is complete.
+
+User stories have many advantages, but the most important might be that every user story is a placeholder for a future conversation.
+
+
+
+
+How to write a user story:
+
+
+Writing good user stories in Scrum requires an understanding of the basic user story template, 
+a focus on the user or customer, and a clear picture of the desired functionality.
+
+User Story Template
+When writing a user story, remember that user stories follow a standard template:
+
+As a < type of user >, I want < some goal > so that < some reason >.
+
+
+
+How to write user stories
+
+
+
+
+3 cs :
+
+
+
+
+cards, conversation,confirmation
+
+
+
+
+
+
+Example of User Stories:
+
+
+As a customer  i want to track my order, so i can  know when to expect   the deleivery
+
+
+ here, type of user is customer.
+
+              the goal for customer is to get the track of the order 
+
+the end use or the fullfillment of the goal is to know the expected deleivery date of the product by implementing the goal of  the stories
+
+
+Acceptance criteria:
+
+
+
+The acceptance criteria is a set of accepted conditions or business rules for which the functionality or 
+feature should satisfy and meet, in order to be accepted by the Product Owner/Stakeholders.
+
+This is a very important part of user story completion and it should be studied by the Product Owner 
+and Business Analyst very meticulously because missing a single criterion can cost a lot. This is a simple numbered or bulleted list.
+
+
+What Are Acceptance Criteria?
+
+Acceptance criteria are the predefined requirements that must be met, taking all possible scenarios into account, to consider a user story to be finished. 
+In other words, they specify the conditions under which a user story can be said to be ‘done’. When all the criteria are met, the team can set the task aside and move on to the next story. 
+Acceptance criteria are used to: 
+
+•	Manage expectations: Acceptance stories clearly define the boundaries of the task. Usually, acceptance criteria are testable, with yes/no or pass/fail results that leave no room for misinterpretation. 
+•	Arrive at a shared understanding with the client: There have been instances where the client might feel that they needed more from the feature, and that it does not meet their requirement in its entirety. Well documented acceptance criteria will address all such ambiguity. 
+•	Spell out the functionality for tests: The defined criteria will help to check whether the system is performing in line with the expectations. 
+•	Work on estimates: When the team is clear about the boundaries of each task, they will be in a position to make accurate estimates.  
+•	Manage scope: Scope creep happens when stakeholders change the requirements midway through the project. One deliverable could suddenly expand to five, and unless the scope is properly defined at the outset the user story will be liable to scope creep, throwing schedules and budgets into free fall. 
+
+ 
+
+The image above, which needs no explanation, shows what could happen when the acceptance criteria are not well defined! Each of the outcomes has a tree, a rope and a swing; but they are a far cry from the poor customer’s ask.
+
+How Should You Format User Story Acceptance Criteria?
+There are two commonly used formats for acceptance criteria: 
+1.	Given/When/Then 
+For a user story that typically follows this format: 
+As a (intended user), I want to (intended action), so that (goal/outcome of action). 
+…the acceptance criteria would be like this: 
+Scenario: (explain scenario). Given (how things begin), when (action taken), then (outcome of taking action). 
+For example: 
+User story: As an online buyer, I want to add a book to my shopping cart, so that I can purchase it. 
+Acceptance criteria:  Given that I have shortlisted three books in my wish list, when I click on one book, then it gets added to my shopping cart. 
+2.	Verification List  
+The team makes a verification checklist, defining a list of pass/fail or yes/no statements that will mark the functionality as complete.
+Whatever format you choose, it should be something that the team is comfortable working with.
+
+product  backlog:
+
+the Product Backlog is an emergent, ordered list of what is needed to improve the product.
+ It is the single source of work undertaken by the Scrum Team.
+
+
+
+INVEST:
+
+
+The acronym INVEST helps to remember a widely accepted set of criteria, or checklist, to assess the quality of a user story. 
+
+“I” ndependent (of all others)
+“N” egotiable (not a specific contract for features)
+“V” aluable (or vertical)
+“E” stimable (to a good approximation)
+“S” mall (so as to fit within an iteration)
+“T” estable (in principle, even if there isn’t a test for it yet)
+
+
+
+
+scrum:
+
+Scrum is the type of Agile framework. 
+It is a framework within which people can address complex adaptive problem while productivity and creativity of delivering product is at highest possible values. 
+Scrum uses Iterative process. Silent features of Scrum are:
+
+Scrum is light-weighted framework
+Scrum emphasizes self-organization
+Scrum is simple to understand
+Scrum framework help the team to work together
+
+
+ 
+SCRUM
+ 
+Scrum is a framework used primarily in agile software development for managing and completing complex projects. It emphasizes teamwork, collaboration, and iterative progress toward a well-defined goal. The term "Scrum" originates from rugby, where it refers to a method of restarting play after an infringement.
+ 
+In software development, Scrum operates on the principles of transparency, inspection, and adaptation.
+ 
+In scrum project move forward with series of iteration that are called Sprints. Each sprint size is typically two to four weeks long. It is based on inspect and adaptive cycle. Produce product incrementally and iteratively, thus reduce risk and enhance visibility.
+ 
+ 
+1 Product Owner
+ 
+Product Owner (PO) is client's representative, define features of product and decide release date and content
+Priorities features according to market value and be responsible for the profitability of product
+Accept or reject work items
+2 Scrum Master
+Coach for scrum team , Enacting scrum values , Ensure team's productivity
+Build winning team, apply agile principles and make system effective.
+3 Team
+ 
+5-9 Members team (Developer , Tester) , Self-organizing, High performance team
+Build winning product, Work collaboratively and share responsibilities, Cross functional team.
+Scrum Activities:
+1. Sprint Planning
+2. Daily Scrum
+3. Sprint Review
+4. Sprint Retrospective
+5. Product Backlog Refinement
+1 Sprint Planning:
+       Goal: Team to plan and agree on backlog items they can complete and confirm the tasks required to support acceptance
+
+2 Daily Scrum:
+Goal: Plan for the day, Inspect and Adapt daily towards reaching the sprint goal.
+Description:
+ 
+Daily development Team standup for 15 minutes in circle and talk only on three points
+What I did since last daily scrum meeting?
+What I am planning to work on today?
+Impediments (Issue/blocker) if any?
+Scrum master protect the team and facilitate for being effective.
+This give an opportunity to team to inspect and adapt daily on the sprint goal.
+Who: Scrum Team, Scrum Master, When: Daily throughout the sprint , Duration: 15 minutes maximum
+ 
+3 Sprint Review:
+Goal: Get feedback on product development. Inspect and adapt on the product feature.
+Description:
+ 
+During this meeting team demonstrate 100% completed work.
+Scrum master facilitate the environment.
+In case of new request, Product owner (PO) note and updates the product backlog as required.
+Product owner is final decision maker on acceptance.
+Duration: 2 hours for a 2 week sprint, Who: Scrum Team, Scrum Master, PO, Stakeholders, When: Last day of sprint
+ 
+
+4 Sprint Retrospective:
+Goal: To inspect and adapt to become more effective and efficient on process, people, culture aspect.
+Description:
+ 
+Participation in the discussion to inspect and adapt as scrum team.
+Scrum master play vital role in sprint retrospective, Scrum master bring in the culture of openness, trust and respect as people discuss the improvement areas, facilitate and focus on improvement and changes that pointing fingers at others.
+This is platform to scrum master to help team resolve ineffectiveness in the systems
+Inspect and Adapt: Try everything that makes sense, reject things that didn’t work even after repeated trails. Shape your culture, process and practice.
+Duration: 2 hours for a 2 week sprint, Who: Scrum Team , When: Last day of sprint
+5 Product Backlog Refinement:
+Goal: Keep product backlog items ready, uncertainty to certainty
+Description:
+ 
+Product owner provide clarity on each product backlog item (All uncertainty clarified into certainty )
+Product owner Update product backlog. 100% be present and involve all team members
+Team understand, carefully listen to need of product owner, understand the acceptance criteria. Help product owner to order the backlog.
+Duration: 1-3 hours depending on the team’s need. , Who: Scrum Team, Scrum master, PO, When: Continuous process, in between the sprints.
+Scrum Artifacts:
+Below are Scrum Artifacts.
+1) Product Backlog,   2) Sprint Backlog, 3) Product Increment
+1 Product Backlog
+This is an ordered list of ideas for the product, which can come from the product owner, team members, or stakeholders. A description and estimate of effort complement each product backlog item.
+The product backlog is ordered to maximize the value delivered by the Scrum team. The development team’s work comes from the product backlog, and nowhere else. Every feature, enhancement, bug fix, documentation requirement, every bit of work the team does comes from a product backlog item.
+The product backlog may begin as a large or short list. Typically it begins short and becomes longer and more defined as time goes on. Product backlog items slated for implementation soon will be "refined," which means they will further clarified, defined, and split into smaller chunks. Though the product owner is responsible for maintaining the product backlog, the development team helps produce and update it.
+2 Sprint Backlog
+The sprint backlog is the list of refined product backlog items chosen for development in the current sprint, together with the team's plan for accomplishing the work. It reflects the team's forecast of what work can be completed. Once the sprint backlog is established, the development team begins work on the new product increment.
+3 Product Increment
+Every sprint produces a product increment, the most important Scrum artifact. A product Increment is the "goal line" for each sprint and, at the end of the sprint, it must:
+ 
+Be of high enough quality to be given to users
+Meet the Scrum team's current definition of done
+Be acceptable to the product owner
+ 
+has context menu
+
+
+

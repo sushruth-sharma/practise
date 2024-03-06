@@ -1,0 +1,46 @@
++------------+             +------------+            +------------+              +------------+
+|    User    |             |   Post     |            |  Comment   |              |   Like     |
++------------+             +------------+            +------------+              +------------+
+| user_id (PK)| ----------- | post_id (PK)|            | comment_id | ------------ | like_id (PK)|
+| username    |             | user_id (FK)| ---------- | user_id (FK)|              | user_id (FK)|
+| email       |             | content    |            | post_id (FK)|              | post_id (FK)|
+| password    |             | timestamp  |            | content    |              | date       |
+| profile_pic |             +------------+            | timestamp  |              +------------+
++------------+                                       +------------+
+      |                                                      |
+      |                                                      |
+      |                                                      |
+      |                                                      |
+      |                                                      |
+      |                                                      |
+      |                                                      |
+      |                                                      |
+      |                                                      |
+      |                                                      |
++------------+               +------------+            +---------------+             +---------------+
+|   Profile  |               | ChatMessage|            |  Notification |             | Connection    |
++------------+               +------------+            +---------------+             +---------------+
+| profile_id |               | message_id |            | notification_id|             | connection_id |
+| user_id (FK)| ------------- | sender_id (FK)|         | user_id (FK)  | ----------  | user1_id (FK)|
+| bio        |               | recipient_id (FK)|     | message       |             | user2_id (FK)|
+| image_url  |               | content    |            | timestamp     |             | status        |
+| last_activity|             | timestamp  |            +---------------+             +---------------+
++------------+                                       | 
+                                                    |
+                                                    |
+                                                    |
+                                                    |
+                                                    |
+                                                    |
+                                                    |
+                                                    |
+                                                    |
+                                              +----------+
+                                              |  Search  |
+                                              +----------+
+                                              | search_id|
+                                              | user_id (FK)|
+                                              | keyword  |
+                                              | timestamp|
+                                              +----------+
+
